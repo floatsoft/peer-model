@@ -1,9 +1,0 @@
-/**
- * The Console object provides access to the browser's debugging console
- * See https://developer.mozilla.org/en-US/docs/Web/API/console
- * The Console object's methods include log()
- * The Console method log() outputs a message to the console.
- * The message is not limited to a single string.
- * See https://developer.mozilla.org/en-US/docs/Web/API/Console/log
- */
-console.log("Hello World");
