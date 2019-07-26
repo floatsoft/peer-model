@@ -1,2 +1,2 @@
-BOS console . log ( ' unknown unknown ' ) ; EOS	educate	O class O method.name method.args_start string.string_start O O string.string_end method.args_end statement_end O
-BOS console . log ( unknown ) ; EOS	educate	O class O method.name method.args_start O method.args_end statement_end O
+BOS console . log ( ' PEER_UNDEFINED PEER_UNDEFINED ' ) ; EOS	invocation	O class O method.name method.args_start string.string_start O O string.string_end method.args_end statement_end O
+BOS console . log ( PEER_UNDEFINED ) ; EOS	invocation	O class O method.name method.args_start O method.args_end statement_end O

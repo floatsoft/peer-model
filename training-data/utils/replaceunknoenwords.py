@@ -5,7 +5,10 @@ import fileinput
 
 filename = sys.argv[1]
 known_words = [word.replace("\n", "") for word in open("query.wl", 'r').readlines()]
-unknown = "unknown"
+
+with open('./querywords/peer_words.wl', 'r') as f:
+    unknown = [line.split(None, 1)[0] for line in f][0]
+
 final_word = "EOS"
 
 with fileinput.FileInput(filename, inplace=True) as file:

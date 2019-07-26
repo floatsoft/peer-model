@@ -1,21 +1,7 @@
-0	|S0 1:1 |# BOS	|S1 0:1 |# educate	|S2 7:1 |# O
+0	|S0 1:1 |# BOS	|S1 0:1 |# invocation	|S2 7:1 |# O
 0	|S0 13:1 |# console		|S2 0:1 |# class
 0	|S0 10:1 |# .		|S2 7:1 |# O
 0	|S0 14:1 |# log		|S2 1:1 |# method.name
 0	|S0 5:1 |# (		|S2 2:1 |# method.args_start
 0	|S0 11:1 |# '		|S2 4:1 |# string.string_start
-0	|S0 0:1 |# unknown		|S2 7:1 |# O
-0	|S0 0:1 |# unknown		|S2 7:1 |# O
-0	|S0 11:1 |# '		|S2 5:1 |# string.string_end
-0	|S0 6:1 |# )		|S2 3:1 |# method.args_end
-0	|S0 9:1 |# ;		|S2 6:1 |# statement_end
-0	|S0 2:1 |# EOS		|S2 7:1 |# O
-1	|S0 1:1 |# BOS	|S1 0:1 |# educate	|S2 7:1 |# O
-1	|S0 13:1 |# console		|S2 0:1 |# class
-1	|S0 10:1 |# .		|S2 7:1 |# O
-1	|S0 14:1 |# log		|S2 1:1 |# method.name
-1	|S0 5:1 |# (		|S2 2:1 |# method.args_start
-1	|S0 0:1 |# unknown		|S2 7:1 |# O
-1	|S0 6:1 |# )		|S2 3:1 |# method.args_end
-1	|S0 9:1 |# ;		|S2 6:1 |# statement_end
-1	|S0 2:1 |# EOS		|S2 7:1 |# O
+0
