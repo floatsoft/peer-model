@@ -4,4 +4,4 @@ BOS console . warn ( ' PEER_UNDEFINED PEER_UNDEFINED ' ) ; EOS	invocation	O clas
 BOS console . warn ( PEER_UNDEFINED ) ; EOS	invocation	O class O method.name method.args_start O method.args_end statement_end O
 BOS console . error ( ' PEER_UNDEFINED PEER_UNDEFINED ' ) ; EOS	invocation	O class O method.name method.args_start string.string_start O O string.string_end method.args_end statement_end O
 BOS console . error ( PEER_UNDEFINED ) ; EOS	invocation	O class O method.name method.args_start O method.args_end statement_end O
-BOS Object . keys ( PEER_UNDEFINED ) ; EOS	invocation	O class O method.name method.args_start O method.args_end statement_end O
+BOS Object . PEER_UNDEFINED ( PEER_UNDEFINED ) ; EOS	invocation	O class O method.name method.args_start O method.args_end statement_end O
