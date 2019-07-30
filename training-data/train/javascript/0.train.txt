@@ -7,4 +7,4 @@ BOS console . error ( PEER_UNDEFINED ) ; EOS	invocation	O object.name O function
 BOS isNaN ( PEER_UNDEFINED ) ; EOS	invocation	O function.name function.args_start O function.args_end statement_end O
 BOS const PEER_UNDEFINED = PEER_UNDEFINED ; EOS	initialization	O declaration.variable O operator.assignment O statement_end O
 BOS var PEER_UNDEFINED ; EOS	declaration	O declaration.variable O statement_end O
-BOS Array . isArray ( [ PEER_UNDEFINED , PEER_UNDEFINED , PEER_UNDEFINED ] ) ; EOS	initialization	O object.name O function.name function.args_start list.start O separator O separator O list.end function.args_end statement_end O
+BOS Array . isArray ( [ PEER_UNDEFINED , PEER_UNDEFINED , PEER_UNDEFINED ] ) ; EOS	initialization	O object.name O function.name function.args_start literal.array.start O separator O separator O literal.array.end function.args_end statement_end O

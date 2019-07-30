@@ -1,3 +1,4 @@
+O
 object.name
 property.name
 function.name
@@ -8,8 +9,9 @@ declaration.variable
 operator.assignment
 string.string_start
 string.string_end
-list.start
-list.end
+literal.array.start
+literal.array.end
+literal.object.start
+literal.object.end
 separator
 statement_end
-O
