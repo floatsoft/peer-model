@@ -1,1 +1,3 @@
 invocation
+declaration
+initialization
