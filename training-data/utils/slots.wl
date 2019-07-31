@@ -7,11 +7,12 @@ function.args_end
 variable.name
 declaration.variable
 operator.assignment
-string.string_start
-string.string_end
+literal.string.start
+literal.string.end
 literal.array.start
 literal.array.end
 literal.object.start
 literal.object.end
-separator
+literal.object.end
+literal.object.delimiter
 statement_end

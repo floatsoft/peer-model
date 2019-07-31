@@ -3,12 +3,12 @@
 0	|S0 16:1 |# .		|S2 0:1 |# O
 0	|S0 483:1 |# log		|S2 3:1 |# function.name
 0	|S0 7:1 |# (		|S2 4:1 |# function.args_start
-0	|S0 6:1 |# '		|S2 9:1 |# string.string_start
+0	|S0 6:1 |# '		|S2 9:1 |# literal.string.start
 0	|S0 130:1 |# PEER_UNDEFINED		|S2 0:1 |# O
 0	|S0 130:1 |# PEER_UNDEFINED		|S2 0:1 |# O
-0	|S0 6:1 |# '		|S2 10:1 |# string.string_end
+0	|S0 6:1 |# '		|S2 10:1 |# literal.string.end
 0	|S0 8:1 |# )		|S2 5:1 |# function.args_end
-0	|S0 20:1 |# ;		|S2 16:1 |# statement_end
+0	|S0 20:1 |# ;		|S2 17:1 |# statement_end
 0	|S0 80:1 |# EOS		|S2 0:1 |# O
 1	|S0 67:1 |# BOS	|S1 0:1 |# invocation	|S2 0:1 |# O
 1	|S0 268:1 |# console		|S2 1:1 |# object.name
@@ -17,19 +17,19 @@
 1	|S0 7:1 |# (		|S2 4:1 |# function.args_start
 1	|S0 130:1 |# PEER_UNDEFINED		|S2 0:1 |# O
 1	|S0 8:1 |# )		|S2 5:1 |# function.args_end
-1	|S0 20:1 |# ;		|S2 16:1 |# statement_end
+1	|S0 20:1 |# ;		|S2 17:1 |# statement_end
 1	|S0 80:1 |# EOS		|S2 0:1 |# O
 2	|S0 67:1 |# BOS	|S1 0:1 |# invocation	|S2 0:1 |# O
 2	|S0 268:1 |# console		|S2 1:1 |# object.name
 2	|S0 16:1 |# .		|S2 0:1 |# O
 2	|S0 852:1 |# warn		|S2 3:1 |# function.name
 2	|S0 7:1 |# (		|S2 4:1 |# function.args_start
-2	|S0 6:1 |# '		|S2 9:1 |# string.string_start
+2	|S0 6:1 |# '		|S2 9:1 |# literal.string.start
 2	|S0 130:1 |# PEER_UNDEFINED		|S2 0:1 |# O
 2	|S0 130:1 |# PEER_UNDEFINED		|S2 0:1 |# O
-2	|S0 6:1 |# '		|S2 10:1 |# string.string_end
+2	|S0 6:1 |# '		|S2 10:1 |# literal.string.end
 2	|S0 8:1 |# )		|S2 5:1 |# function.args_end
-2	|S0 20:1 |# ;		|S2 16:1 |# statement_end
+2	|S0 20:1 |# ;		|S2 17:1 |# statement_end
 2	|S0 80:1 |# EOS		|S2 0:1 |# O
 3	|S0 67:1 |# BOS	|S1 0:1 |# invocation	|S2 0:1 |# O
 3	|S0 268:1 |# console		|S2 1:1 |# object.name
@@ -38,19 +38,19 @@
 3	|S0 7:1 |# (		|S2 4:1 |# function.args_start
 3	|S0 130:1 |# PEER_UNDEFINED		|S2 0:1 |# O
 3	|S0 8:1 |# )		|S2 5:1 |# function.args_end
-3	|S0 20:1 |# ;		|S2 16:1 |# statement_end
+3	|S0 20:1 |# ;		|S2 17:1 |# statement_end
 3	|S0 80:1 |# EOS		|S2 0:1 |# O
 4	|S0 67:1 |# BOS	|S1 0:1 |# invocation	|S2 0:1 |# O
 4	|S0 268:1 |# console		|S2 1:1 |# object.name
 4	|S0 16:1 |# .		|S2 0:1 |# O
 4	|S0 318:1 |# error		|S2 3:1 |# function.name
 4	|S0 7:1 |# (		|S2 4:1 |# function.args_start
-4	|S0 6:1 |# '		|S2 9:1 |# string.string_start
+4	|S0 6:1 |# '		|S2 9:1 |# literal.string.start
 4	|S0 130:1 |# PEER_UNDEFINED		|S2 0:1 |# O
 4	|S0 130:1 |# PEER_UNDEFINED		|S2 0:1 |# O
-4	|S0 6:1 |# '		|S2 10:1 |# string.string_end
+4	|S0 6:1 |# '		|S2 10:1 |# literal.string.end
 4	|S0 8:1 |# )		|S2 5:1 |# function.args_end
-4	|S0 20:1 |# ;		|S2 16:1 |# statement_end
+4	|S0 20:1 |# ;		|S2 17:1 |# statement_end
 4	|S0 80:1 |# EOS		|S2 0:1 |# O
 5	|S0 67:1 |# BOS	|S1 0:1 |# invocation	|S2 0:1 |# O
 5	|S0 268:1 |# console		|S2 1:1 |# object.name
@@ -59,26 +59,26 @@
 5	|S0 7:1 |# (		|S2 4:1 |# function.args_start
 5	|S0 130:1 |# PEER_UNDEFINED		|S2 0:1 |# O
 5	|S0 8:1 |# )		|S2 5:1 |# function.args_end
-5	|S0 20:1 |# ;		|S2 16:1 |# statement_end
+5	|S0 20:1 |# ;		|S2 17:1 |# statement_end
 5	|S0 80:1 |# EOS		|S2 0:1 |# O
 6	|S0 67:1 |# BOS	|S1 0:1 |# invocation	|S2 0:1 |# O
 6	|S0 455:1 |# isNaN		|S2 3:1 |# function.name
 6	|S0 7:1 |# (		|S2 4:1 |# function.args_start
 6	|S0 130:1 |# PEER_UNDEFINED		|S2 0:1 |# O
 6	|S0 8:1 |# )		|S2 5:1 |# function.args_end
-6	|S0 20:1 |# ;		|S2 16:1 |# statement_end
+6	|S0 20:1 |# ;		|S2 17:1 |# statement_end
 6	|S0 80:1 |# EOS		|S2 0:1 |# O
 7	|S0 67:1 |# BOS	|S1 2:1 |# initialization	|S2 0:1 |# O
 7	|S0 269:1 |# const		|S2 7:1 |# declaration.variable
 7	|S0 130:1 |# PEER_UNDEFINED		|S2 0:1 |# O
 7	|S0 34:1 |# =		|S2 8:1 |# operator.assignment
 7	|S0 130:1 |# PEER_UNDEFINED		|S2 0:1 |# O
-7	|S0 20:1 |# ;		|S2 16:1 |# statement_end
+7	|S0 20:1 |# ;		|S2 17:1 |# statement_end
 7	|S0 80:1 |# EOS		|S2 0:1 |# O
 8	|S0 67:1 |# BOS	|S1 1:1 |# declaration	|S2 0:1 |# O
 8	|S0 844:1 |# var		|S2 7:1 |# declaration.variable
 8	|S0 130:1 |# PEER_UNDEFINED		|S2 0:1 |# O
-8	|S0 20:1 |# ;		|S2 16:1 |# statement_end
+8	|S0 20:1 |# ;		|S2 17:1 |# statement_end
 8	|S0 80:1 |# EOS		|S2 0:1 |# O
 9	|S0 67:1 |# BOS	|S1 2:1 |# initialization	|S2 0:1 |# O
 9	|S0 40:1 |# Array		|S2 1:1 |# object.name
@@ -87,11 +87,26 @@
 9	|S0 7:1 |# (		|S2 4:1 |# function.args_start
 9	|S0 178:1 |# [		|S2 11:1 |# literal.array.start
 9	|S0 130:1 |# PEER_UNDEFINED		|S2 0:1 |# O
-9	|S0 13:1 |# ,		|S2 15:1 |# separator
+9	|S0 13:1 |# ,		|S2 16:1 |# literal.object.delimiter
 9	|S0 130:1 |# PEER_UNDEFINED		|S2 0:1 |# O
-9	|S0 13:1 |# ,		|S2 15:1 |# separator
+9	|S0 13:1 |# ,		|S2 16:1 |# literal.object.delimiter
 9	|S0 130:1 |# PEER_UNDEFINED		|S2 0:1 |# O
 9	|S0 189:1 |# ]		|S2 12:1 |# literal.array.end
 9	|S0 8:1 |# )		|S2 5:1 |# function.args_end
-9	|S0 20:1 |# ;		|S2 16:1 |# statement_end
+9	|S0 20:1 |# ;		|S2 17:1 |# statement_end
 9	|S0 80:1 |# EOS		|S2 0:1 |# O
+10	|S0 67:1 |# BOS	|S1 2:1 |# initialization	|S2 0:1 |# O
+10	|S0 40:1 |# Array		|S2 1:1 |# object.name
+10	|S0 16:1 |# .		|S2 0:1 |# O
+10	|S0 447:1 |# isArray		|S2 3:1 |# function.name
+10	|S0 7:1 |# (		|S2 4:1 |# function.args_start
+10	|S0 861:1 |# {		|S2 13:1 |# literal.object.start
+10	|S0 130:1 |# PEER_UNDEFINED		|S2 0:1 |# O
+10	|S0 13:1 |# ,		|S2 16:1 |# literal.object.delimiter
+10	|S0 130:1 |# PEER_UNDEFINED		|S2 0:1 |# O
+10	|S0 13:1 |# ,		|S2 16:1 |# literal.object.delimiter
+10	|S0 130:1 |# PEER_UNDEFINED		|S2 0:1 |# O
+10	|S0 863:1 |# }		|S2 15:1 |# literal.object.end
+10	|S0 8:1 |# )		|S2 5:1 |# function.args_end
+10	|S0 20:1 |# ;		|S2 17:1 |# statement_end
+10	|S0 80:1 |# EOS		|S2 0:1 |# O
