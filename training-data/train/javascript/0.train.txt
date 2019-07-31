@@ -1,11 +1,11 @@
-BOS console . log ( ' PEER_UNDEFINED PEER_UNDEFINED ' ) ; EOS	invocation	O object.name O function.name function.args_start literal.string.start O O literal.string.end function.args_end statement_end O
-BOS console . log ( PEER_UNDEFINED ) ; EOS	invocation	O object.name O function.name function.args_start O function.args_end statement_end O
-BOS console . warn ( ' PEER_UNDEFINED PEER_UNDEFINED ' ) ; EOS	invocation	O object.name O function.name function.args_start literal.string.start O O literal.string.end function.args_end statement_end O
-BOS console . warn ( PEER_UNDEFINED ) ; EOS	invocation	O object.name O function.name function.args_start O function.args_end statement_end O
-BOS console . error ( ' PEER_UNDEFINED PEER_UNDEFINED ' ) ; EOS	invocation	O object.name O function.name function.args_start literal.string.start O O literal.string.end function.args_end statement_end O
-BOS console . error ( PEER_UNDEFINED ) ; EOS	invocation	O object.name O function.name function.args_start O function.args_end statement_end O
+BOS console . log ( ' PEER_UNDEFINED PEER_UNDEFINED ' ) ; EOS	invocation	O global_object.name O function.name function.args_start literal.string.start O O literal.string.end function.args_end statement_end O
+BOS console . log ( PEER_UNDEFINED ) ; EOS	invocation	O global_object.name O function.name function.args_start O function.args_end statement_end O
+BOS console . warn ( ' PEER_UNDEFINED PEER_UNDEFINED ' ) ; EOS	invocation	O global_object.name O function.name function.args_start literal.string.start O O literal.string.end function.args_end statement_end O
+BOS console . warn ( PEER_UNDEFINED ) ; EOS	invocation	O global_object.name O function.name function.args_start O function.args_end statement_end O
+BOS console . error ( ' PEER_UNDEFINED PEER_UNDEFINED ' ) ; EOS	invocation	O global_object.name O function.name function.args_start literal.string.start O O literal.string.end function.args_end statement_end O
+BOS console . error ( PEER_UNDEFINED ) ; EOS	invocation	O global_object.name O function.name function.args_start O function.args_end statement_end O
 BOS isNaN ( PEER_UNDEFINED ) ; EOS	invocation	O function.name function.args_start O function.args_end statement_end O
 BOS const PEER_UNDEFINED = PEER_UNDEFINED ; EOS	initialization	O declaration.variable O operator.assignment O statement_end O
 BOS var PEER_UNDEFINED ; EOS	declaration	O declaration.variable O statement_end O
-BOS Array . isArray ( [ PEER_UNDEFINED , PEER_UNDEFINED , PEER_UNDEFINED ] ) ; EOS	initialization	O object.name O function.name function.args_start literal.array.start O literal.object.delimiter O literal.object.delimiter O literal.array.end function.args_end statement_end O
+BOS Array . isArray ( [ PEER_UNDEFINED , PEER_UNDEFINED , PEER_UNDEFINED ] ) ; EOS	initialization	O global_object.name O function.name function.args_start literal.array.start O literal.object.delimiter O literal.object.delimiter O literal.array.end function.args_end statement_end O
 BOS let PEER_UNDEFINED = [ PEER_UNDEFINED , PEER_UNDEFINED , PEER_UNDEFINED , PEER_UNDEFINED , PEER_UNDEFINED , PEER_UNDEFINED ] ; EOS	initialization	O declaration.variable O operator.assignment literal.array.start O literal.object.delimiter O literal.object.delimiter O literal.object.delimiter O literal.object.delimiter O literal.object.delimiter O literal.array.end statement_end O

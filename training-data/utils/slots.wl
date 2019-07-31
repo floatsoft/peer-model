@@ -1,5 +1,5 @@
 O
-object.name
+global_object.name
 property.name
 function.name
 function.args_start
