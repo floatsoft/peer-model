@@ -1,0 +1,23 @@
+{
+  "name": "peer-model",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scrape:jsKeywords": "node training-data/utils/scrapeJsKeywords.js > training-data/utils/querywords/js_w3_scraped_reserved_words.wl"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/floatsoft/peer-model.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/floatsoft/peer-model/issues"
+  },
+  "homepage": "https://github.com/floatsoft/peer-model#readme",
+  "dependencies": {
+    "nightmare": "^3.0.2"
+  }
+}
