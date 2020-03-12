@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "scrape:jsKeywords": "node training-data/utils/scrapeJsKeywords.js > training-data/utils/querywords/js_w3_scraped_reserved_words.wl"
+    "scrape:jsKeywords": "node training-data/utils/scrapeW3JsReservedWords.js > training-data/utils/querywords/js_w3_scraped_reserved_words.wl"
   },
   "repository": {
     "type": "git",
