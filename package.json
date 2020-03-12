@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "scrape:jsKeywords": "node training-data/utils/scrapeW3JsReservedWords.js > training-data/utils/querywords/js_w3_scraped_reserved_words.wl"
+    "scrape:W3ReservedWords": "node training-data/utils/scrapeW3JsReservedWords.js > training-data/utils/querywords/js_w3_scraped_reserved_words.wl",
+    "scrape:MDNCodeMirrors": "node training-data/utils/scrapeMDNCodeMirrors.js > training-data/utils/samples/js_MDN_Code_Mirrors.json"
   },
   "repository": {
     "type": "git",
@@ -18,6 +19,6 @@
   },
   "homepage": "https://github.com/floatsoft/peer-model#readme",
   "dependencies": {
-    "nightmare": "^3.0.2"
+    "puppeteer": "^2.1.1"
   }
 }
