@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "scrape:W3ReservedWords": "node training-data/utils/scrapeW3JsReservedWords.js > training-data/utils/querywords/js_w3_scraped_reserved_words.wl",
-    "scrape:MDNCodeMirrors": "node training-data/utils/scrapeMDNCodeMirrors.js > training-data/utils/samples/js_MDN_Code_Mirrors.json"
+    "scrape:MDNCode": "node training-data/utils/scrapeMDNCode.js > training-data/utils/samples/js_MDN_Code.json"
   },
   "repository": {
     "type": "git",
